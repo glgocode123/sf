@@ -1,7 +1,7 @@
 // JSON Document
 {
 	"prodid":11312312,
-	"prod":{"type":1,"product":"T-Shirt"},
+	"prod":[{"type":1,"product":"T-Shirt"}],
 	"date":20150112,
 	"menoy":115.00,
 	"like":32,
