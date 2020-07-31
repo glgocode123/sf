@@ -13,7 +13,7 @@
 $(document).ready(function(){
     $("button").click(function(){
 			alert(0);
-        $.getJSON("../test/prodlist.json",function(result){
+        $.getJSON("prodlist.json",function(result){
 			alert(1);
             $.each(result, function(i, field){
                 $("div").append(field + " ");
