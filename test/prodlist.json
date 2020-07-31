@@ -1,6 +1,3 @@
-//json file
 { 
-  "firstName": "Bill",
-  "lastName": "Gates",
-  "age": 60
+  "firstName": "Bill"
 }
