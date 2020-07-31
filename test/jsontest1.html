@@ -11,15 +11,13 @@
 <script src="../js/jquery.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
-    $("button").click(function(){
-			alert(0);
-        $.getJSON("prodlist.json?jsoncallback=?",null,function(result){
-			alert(result);
-//            $.each(result, function(i, field){
-//                $("div").append(field + " ");
-//            });
-        });
-    });
+	$("button").click(function(){
+		$.getJSON("demo_ajax_json.js",function(result){
+			$.each(result, function(i, field){
+				$("div").append(field + " ");
+			});
+		});
+	});
 });
 </script>
 </body>

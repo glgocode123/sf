@@ -1,4 +1,5 @@
-// JSON Document
-{
-	"prodid":11312312
+{ 
+  "firstName": "Bill",
+  "lastName": "Gates",
+  "age": 60
 }
